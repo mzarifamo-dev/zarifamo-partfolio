@@ -3,6 +3,66 @@
 </script>
 
 <template>
+  <body class="bg-gray-900 text-gray-100 min-h-screen">
+
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center justify-center pt-16 pb-12 px-6">
+    <!-- Gradient Background -->
+    <div class="fixed inset-0 bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 -z-10"></div>
+
+    <!-- Floating Particles -->
+    <div class="fixed inset-0 -z-10 opacity-20 overflow-hidden">
+      <div class="absolute w-3 h-3 bg-pink-500 rounded-full top-1/4 left-1/4 animate-float"></div>
+      <div class="absolute w-2 h-2 bg-purple-500 rounded-full top-1/3 right-1/4 animate-float delay-200"></div>
+      <div class="absolute w-4 h-4 bg-indigo-500 rounded-full bottom-1/4 left-1/3 animate-float delay-300"></div>
+      <div class="absolute w-3 h-3 bg-pink-600 rounded-full bottom-1/3 right-1/4 animate-float"></div>
+    </div>
+
+    <!-- Hero Content -->
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center animate-fade-in">
+      <!-- Text Content -->
+      <div class="space-y-6">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+           <span class="text-gradient">  About Me</span>
+        </h1>
+
+        <div class="h-12 overflow-hidden">
+          <h2 class="text-xl md:text-2xl font-mono whitespace-nowrap border-r-4 border-r-pink-500 pr-1 animate-typewriter animate-blink">
+            Hi,
+          </h2>
+        </div>
+
+        <p class="text-gray-300 text-lg max-w-lg">
+
+
+           I’m Zarifamo — a web designer and coder, and this is my personal portfolio.
+          I specialize in building beautiful, functional websites with a focus on clean design and user experience. While I use HTML regularly, I truly enjoy working with Nuxt 4 — it’s where I feel most creative and efficient.
+          I got into web design and coding because I love creating things that people can actually use. Seeing an idea come to life on a screen — and knowing I built it — is what keeps me going.
+          I especially enjoy working on personal websites, where I can fully express ideas and create something meaningful. My goal is to make people feel happiness and maybe even a little “WOW” when they see my work.
+          When I’m not coding, you can usually find me listening to music or reading a good book.
+        </p>
+
+
+
+
+      </div>
+
+      <!-- Avatar Image -->
+      <div class="relative hidden mt-10 md:block">
+        <div class="absolute -inset-4 bg-gradient-to-r from-pink-500 to-purple-600 rounded-2xl opacity-75 blur-xl animate-pulse"></div>
+        <div class="relative rounded-2xl overflow-hidden border-4 border-gray-800 transform rotate-1 hover:rotate-0 transition-transform duration-500">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
+               alt="Professional portrait"
+               class="w-full h-auto object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  </body>
+
   <div class="bg-gradient-to-b from-[#121212] to-purple-800 relative  overflow-hidden bg-gray-900">
     <svg
         class="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
