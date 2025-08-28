@@ -126,7 +126,7 @@
                   class="text-xl font-bold text-black before:mb-2 before:block before:font-mono before:text-sm before:text-gray-500">
                 My Journey in IT and Creative Projects
               </h3>
-              <h4 class="mt-2 text-base text-white">Tools like HTML, CSS, JS, Nuxt, Figma, CapCut</h4>
+              <h4 class="mt-2 text-base text-white">Tools like HTML, CSS,, JS, Nuxt, Figma, CapCut</h4>
             </div>
           </li>
           <li class="flex-start group relative flex lg:flex-col">
