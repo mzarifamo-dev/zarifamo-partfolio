@@ -52,7 +52,7 @@
       <div class="relative hidden mt-10 md:block">
         <div class="absolute -inset-4 bg-gradient-to-r from-pink-500 to-purple-600 rounded-2xl opacity-75 blur-xl animate-pulse"></div>
         <div class="relative rounded-2xl overflow-hidden border-4 border-gray-800 transform rotate-1 hover:rotate-0 transition-transform duration-500">
-          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
+          <img src="\images\musurat.JPG"
                alt="Professional portrait"
                class="w-full h-auto object-cover">
         </div>
